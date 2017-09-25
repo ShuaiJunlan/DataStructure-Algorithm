@@ -19,9 +19,9 @@
     * leetcode
     * offer
 
-> In the __Java__ folder, including algorithms in Java language;
-> In the __C__ folder, including algorithms in C language;
-> In the __C++__ folder, including algorithms in C++ language;
+> In the __Java__ folder, including algorithms in Java language;</br>
+> In the __C__ folder, including algorithms in C language;</br>
+> In the __C++__ folder, including algorithms in C++ language;</br>
 
 
 ## Contact me:
