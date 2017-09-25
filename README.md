@@ -25,4 +25,4 @@
 ## Contact me:
 > Everyone who has a good idea can contact me for further exchange.</br>
 > Email : __shuaijunlan@gmail.com__ </br>
-> Blog : __[blog.shuaijunlan.cn](http://blog.shuaijunlan.cn "Junlan Shuai's Blog")__
+> Blog : __[http://blog.shuaijunlan.cn](http://blog.shuaijunlan.cn "Junlan Shuai's Blog")__
