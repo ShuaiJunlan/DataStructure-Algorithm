@@ -1,3 +1,5 @@
-C/leetcode/
-!C/leetcode/*.c
-!C/leetcode/*.h
+C/leetcode/bin/
+C/leetcode/obj/
+C/leetcode/leetcode.cbp
+C/leetcode/leetcode.layout
+C/leetcode/leetcode.depend
