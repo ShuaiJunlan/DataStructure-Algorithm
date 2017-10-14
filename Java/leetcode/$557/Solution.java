@@ -1,4 +1,4 @@
-package com.sh.leetcoder.$557;
+package $557;
 
 /**
  * @author Junlan Shuai[shuaijunlan@gmail.com].

@@ -1,4 +1,4 @@
-package com.sh.leetcoder.datastruc;
+package datastruc;
 
 /**
  * @author Junlan Shuai[shuaijunlan@gmail.com].

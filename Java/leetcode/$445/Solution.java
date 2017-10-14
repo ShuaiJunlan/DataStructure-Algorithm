@@ -1,6 +1,6 @@
-package com.sh.leetcoder.$445;
+package $445;
 
-import com.sh.leetcoder.datastruc.ListNode;
+import datastruc.ListNode;
 
 import java.util.Stack;
 

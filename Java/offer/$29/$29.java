@@ -1,4 +1,4 @@
-package com.sh.offer.$29;
+package $29;
 
 /**
  * @author Junlan Shuai[shuaijunlan@gmail.com].

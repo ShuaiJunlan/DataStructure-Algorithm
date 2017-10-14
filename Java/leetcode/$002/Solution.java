@@ -1,6 +1,6 @@
-package com.sh.leetcoder.$002;
+package $002;
 
-import com.sh.leetcoder.datastruc.ListNode;
+import datastruc.ListNode;
 
 
 /**

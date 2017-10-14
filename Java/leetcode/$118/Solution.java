@@ -1,4 +1,4 @@
-package com.sh.leetcoder.$118;
+package $118;
 
 import sun.awt.image.ImageWatched;
 

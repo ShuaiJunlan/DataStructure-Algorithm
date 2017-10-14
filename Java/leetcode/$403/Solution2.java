@@ -1,4 +1,4 @@
-package com.sh.leetcoder.$403;
+package $403;
 
 import java.util.HashMap;
 import java.util.HashSet;

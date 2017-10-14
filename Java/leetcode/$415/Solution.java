@@ -1,4 +1,4 @@
-package com.sh.leetcoder.$415;
+package $415;
 
 import java.math.BigInteger;
 

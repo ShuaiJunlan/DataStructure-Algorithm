@@ -1,4 +1,4 @@
-package com.sh.leetcoder.$013;
+package $013;
 
 import java.util.HashMap;
 

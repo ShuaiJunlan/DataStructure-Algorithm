@@ -1,6 +1,6 @@
-package com.sh.leetcoder.$110;
+package $110;
 
-import com.sh.leetcoder.datastruc.TreeNode;
+import datastruc.TreeNode;
 
 /**
  * @author Junlan Shuai[shuaijunlan@gmail.com].

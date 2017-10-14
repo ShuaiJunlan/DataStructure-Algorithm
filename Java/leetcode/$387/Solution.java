@@ -1,4 +1,4 @@
-package com.sh.leetcoder.$387;
+package $387;
 
 
 /**

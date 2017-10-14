@@ -1,4 +1,4 @@
-package com.sh.leetcoder.$546;
+package $546;
 
 import java.util.LinkedList;
 

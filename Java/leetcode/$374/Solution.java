@@ -1,4 +1,4 @@
-package com.sh.leetcoder.$374;
+package $374;
 
 import java.util.Scanner;
 

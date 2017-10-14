@@ -1,7 +1,7 @@
-package com.sh.offer.$13;
+package $13;
 
 
-import com.sh.datastructure.ListNode;
+import datastructure.ListNode;
 
 /**
  * @author Junlan Shuai[shuaijunlan@gmail.com].

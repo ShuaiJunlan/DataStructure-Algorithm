@@ -1,5 +1,3 @@
-package com.sh.offer;
-
 /**
  * @author Junlan Shuai[shuaijunlan@gmail.com].
  * @date Created on 16:44 2017/1/18.

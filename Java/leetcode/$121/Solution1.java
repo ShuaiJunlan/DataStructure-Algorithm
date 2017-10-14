@@ -1,4 +1,4 @@
-package com.sh.leetcoder.$121;
+package $121;
 
 /**
  * @author Junlan Shuai[shuaijunlan@gmail.com].

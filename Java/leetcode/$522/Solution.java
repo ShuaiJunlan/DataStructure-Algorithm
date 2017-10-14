@@ -1,4 +1,4 @@
-package com.sh.leetcoder.$522;
+package $522;
 
 import java.util.HashSet;
 import java.util.Iterator;

@@ -1,6 +1,6 @@
-package com.sh.offer.$18;
+package $18;
 
-import com.sh.datastructure.BinaryTreeNode;
+import datastructure.BinaryTreeNode;
 
 /**
  * @author Junlan Shuai[shuaijunlan@gmail.com].

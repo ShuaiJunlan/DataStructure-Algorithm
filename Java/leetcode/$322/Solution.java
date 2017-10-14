@@ -1,4 +1,4 @@
-package com.sh.leetcoder.$322;
+package $322;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package com.sh.offer.$14;
+package $14;
 
 
 /**

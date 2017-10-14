@@ -1,6 +1,6 @@
-package com.sh.leetcoder.$083;
+package $083;
 
-import com.sh.leetcoder.datastruc.ListNode;
+import datastruc.ListNode;
 
 /**
  * @author Junlan Shuai[shuaijunlan@gmail.com].

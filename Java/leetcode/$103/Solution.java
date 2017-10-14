@@ -1,6 +1,6 @@
-package com.sh.leetcoder.$103;
+package $103;
 
-import com.sh.leetcoder.datastruc.TreeNode;
+import datastruc.TreeNode;
 
 import java.util.LinkedList;
 import java.util.List;
