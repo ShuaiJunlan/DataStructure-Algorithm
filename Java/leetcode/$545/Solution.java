@@ -32,13 +32,15 @@ public class Solution {
         LinkedList<Integer> re = new LinkedList<>();
         re.add(root.val);
 
-        if (linkedList1.size() > 0)
+        if (linkedList1.size() > 0) {
             linkedList1.removeLast();
+        }
         re.addAll(linkedList1);
 
         re.addAll(linkedList3);
-        if (linkedList2.size() > 0)
+        if (linkedList2.size() > 0) {
             linkedList2.removeLast();
+        }
         while (linkedList2.size() != 0) {
             re.add(linkedList2.pollLast());
         }
@@ -88,12 +90,15 @@ public class Solution {
      * @param linkedList
      */
     public void getLeafNode(TreeNode root, LinkedList<Integer> linkedList) {
-        if (root.left == null && root.right == null)
+        if (root.left == null && root.right == null) {
             linkedList.add(root.val);
-        if (root.left != null)
+        }
+        if (root.left != null) {
             getLeafNode(root.left, linkedList);
-        if (root.right != null)
+        }
+        if (root.right != null) {
             getLeafNode(root.right, linkedList);
+        }
     }
 
     public static void main(String[] args) {
