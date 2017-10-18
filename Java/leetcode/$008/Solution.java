@@ -6,45 +6,46 @@ package $008;
  */
 public class Solution {
     public int myAtoi(String str) {
-        int sum = 0;
-        int flag = 0;
-        int start = 0;
-        if (str == null || str.length() == 0) {
+        int N = str.length();
+        if (N == 0) {
             return 0;
         }
-        char[] num = str.toCharArray();
-        if (str.length() == 1 && num[0] >= '0' && num[0] <= '9'){
-            return num[0] - '0';
+        boolean isNeg = false, overflow = false;
+        int i = 0;
+        while (i < N && str.charAt(i) == ' ') {
+            i++;
         }
-        else if (str.length() == 1){
+        if (i == N) {
             return 0;
-        }else {
-            int non_num = 0;
-            for (int i = str.length() - 1; i >= 0; i--){
+        }
 
-                if (num[i] == '-'){
-                    if (flag != 0){
-                        return 0;
-                    }
-                    flag = (flag^1) * (-1);
-                }else if (num[i] == '+'){
-                    if (flag != 0){
-                        return 0;
-                    }
-                    flag = (flag^1);
-                }else if (num[i] > '9' || num[i] < '0'){
-                    non_num++;
-                }else {
-                    if (Integer.MAX_VALUE - sum < Math.pow(10, str.length() - i - 1 - non_num) *  (num[i] - '0')){
-                        return (1&flag) == 1 ? Integer.MAX_VALUE : Integer.MIN_VALUE;
-                    }
-                    sum += (Math.pow(10, str.length() - i - 1 - non_num) * (num[i] - '0'));
-                }
-
+        if (str.charAt(i) == '-' || str.charAt(i) == '+') {
+            isNeg = (str.charAt(i) == '-');
+            i++;
+        }
+        int n = 0;
+        while (i < N) {
+            char c = str.charAt(i);
+            if (c > '9' || c < '0') {
+                break;
             }
-
+            int digit = c - '0';
+            if ((Integer.MAX_VALUE - digit) / 10 >= n){
+                n = 10 * n + digit;
+            }
+            else {
+                overflow = true;
+                break;
+            }
+            i++;
         }
-        return sum*(flag == 0 ? 1 : flag);
+        int result = 0;
+        if (isNeg) {
+            result = overflow ? Integer.MIN_VALUE : -n;
+        } else {
+            result = overflow ? Integer.MAX_VALUE : n;
+        }
+        return result;
     }
 
     public static void main(String[] args) {
