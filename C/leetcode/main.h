@@ -10,4 +10,10 @@ double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Si
 //  008
 int myAtoi(char* str);
 
+//  A012
+char* intToRoman(int num);
+
+//  A015
+int** threeSum(int* nums, int numsSize, int* returnSize);
+
 #endif // MAIN_H_INCLUDED
