@@ -4,7 +4,7 @@
  */
 int* selectSort(int* nums, int numsSize);
 int** threeSum(int* nums, int numsSize, int* returnSize) {
-    int ** returnValue = (int **)malloc(sizeof(void*) * 10 * numsSize);
+    int ** returnValue = (int **)malloc(sizeof(void*) * 10);
     int memblock = 1;
 
     *returnSize = 0;
@@ -30,14 +30,14 @@ int** threeSum(int* nums, int numsSize, int* returnSize) {
                 data[1] = nums[lo];
                 data[2] = nums[li];
                 returnValue[*returnSize] = data;
-                free(data);
+                //free(data);
                 *returnSize += 1;
                 //  check the memory space and if not enough, remalloc memory
-                if (*returnSize >= 10 * numsSize * memblock)
+                if (*returnSize >= 10 * memblock)
                 {
                     // memory enough
                     memblock += 1;
-                    returnValue = (int **)realloc(returnValue, sizeof(void*) * 10 * numsSize * memblock);
+                    returnValue = (int **)realloc(returnValue, sizeof(void*) * 10 * memblock);
                 }
 
                 while(lo < li && nums[lo+1] == nums[lo])
@@ -60,7 +60,6 @@ int** threeSum(int* nums, int numsSize, int* returnSize) {
                 li--;
             }
         }
-
     }
     return returnValue;
 }

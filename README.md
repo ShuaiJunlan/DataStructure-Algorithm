@@ -3,7 +3,8 @@
 > In order to enhance my designing capability of normal algorithm, I make a plan, exering
 > algorithm everyday. So this responsity is used for storing algorithm programs, which include
 > ___LeetCode___ algorithms and ___Sword Offer___ algorithms, and using three kinds of program
-> language(Java/C/C++) to achieve it.
+> language(Java/C/C++) to achieve it. Ok, you can visit my [leetcode home page](https://
+> leetcode.com/shuaijunlan/ "leetcode home page")
 
 ## Project structure:
 > Folder structure
