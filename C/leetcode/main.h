@@ -16,4 +16,7 @@ char* intToRoman(int num);
 //  A015
 int** threeSum(int* nums, int numsSize, int* returnSize);
 
+//  A029
+int removeElement(int* nums, int numsSize, int val);
+
 #endif // MAIN_H_INCLUDED
