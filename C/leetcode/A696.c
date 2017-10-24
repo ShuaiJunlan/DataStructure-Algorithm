@@ -1,25 +1,36 @@
 int countBinarySubstrings(char* s) {
-    int length = sizeof(s) / sizeof(char);
+    int length = 0;
+    //  get the length
+    for(; s[length] != '\0'; length++);
+
     if(length < 2)
         return 0;
     int count = 0;
-    for(int i = 0; i < length; i++)
+
+    int num_1 = 1;
+    int num_0 = 1;
+    int j = 0;
+    for(; j < length - 1; j++)
     {
-        int num_1 = 0;
-        int num_0 = 0;
-        for(int j = i; j < length; j++)
+        if(s[j] == s[j+1])
+            num_0++;
+        else
+            break;
+    }
+    for(int i = j + 1; i < length;)
+    {
+        int k = i;
+        for(; k < length - 1; k++)
         {
-            num_1++;
-            if(s[j] == s[j+1])
+            if(s[k] == s[k+1])
                 num_1++;
             else
-                num_0++;
-
+                break;
         }
-        if(s[i+1] == s[i])
-            continue;
-        else
-
-        for(int j = )
+        count = count + (num_0 < num_1 ? num_0 : num_1);
+        i = i + num_1;
+        num_0 = num_1;
+        num_1 = 1;
     }
+    return count;
 }

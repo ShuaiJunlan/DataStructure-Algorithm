@@ -24,12 +24,19 @@ int main()
     printf("%s \n", intToRoman(99));
     */
 
-
+    /*
     int a[] = {-1, 0, 1, 2, -1, -4};
     int length = 12;
     int** b = threeSum(a, 6, &length);
+    */
 
     //  029
+
+    //  696
+    char* a = "00001111";
+    //printf("%d \n", countBinarySubstrings(a));
+    char* b = "00000";
+    printf("%d \n", countBinarySubstrings(b));
 
 
 

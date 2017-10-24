@@ -19,4 +19,6 @@ int** threeSum(int* nums, int numsSize, int* returnSize);
 //  A029
 int removeElement(int* nums, int numsSize, int val);
 
+int countBinarySubstrings(char* s);
+
 #endif // MAIN_H_INCLUDED
