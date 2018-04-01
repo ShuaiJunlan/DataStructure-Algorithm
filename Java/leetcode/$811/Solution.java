@@ -20,7 +20,7 @@ public class Solution {
                 if (temp.length() == 0){
                     temp = b[j] + temp;
                 }else {
-                    temp = b[j] + "." + temp;
+                    temp = new StringBuilder(b[j]).append(".").append(temp).toString();
                 }
 
                 if (hashMap.containsKey(temp)){
