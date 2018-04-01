@@ -18,9 +18,9 @@ public class Solution {
             String temp = "";
             for (int j = b.length - 1; j >= 0; j--){
                 if (temp.length() == 0){
-                    temp = b[j] + temp;
+                    temp = b[j];
                 }else {
-                    temp = new StringBuilder(b[j]).append(".").append(temp).toString();
+                    temp = b[j].concat(".").concat(temp);
                 }
 
                 if (hashMap.containsKey(temp)){
