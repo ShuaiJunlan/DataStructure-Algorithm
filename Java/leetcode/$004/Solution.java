@@ -11,38 +11,38 @@ public class Solution {
         int length1 = nums1.length;
         int length2 = nums2.length;
         int length = length1 + length2;
-        if (length1 == 0){
+        if (length1 == 0) {
             if ((length2 & 1) == 0)
-                return (nums2[length2>>1] + nums2[(length2 >> 1) - 1]) / 2.0;
+                return (nums2[length2 >> 1] + nums2[(length2 >> 1) - 1]) / 2.0;
             else
-                return nums2[length2>>1];
+                return nums2[length2 >> 1];
         }
-        if (length2 == 0){
+        if (length2 == 0) {
             if ((length1 & 1) == 0)
-                return (nums1[length1>>1] + nums1[(length1 >> 1) - 1]) / 2.0;
+                return (nums1[length1 >> 1] + nums1[(length1 >> 1) - 1]) / 2.0;
             else
-                return nums1[length1>>1];
+                return nums1[length1 >> 1];
         }
-        if ((nums1[0] <= nums1[length1-1] && nums2[0] <= nums2[length2-1]) || (nums1[0] >= nums1[length1-1] && nums2[0] >= nums2[length2-1])){
+        if ((nums1[0] <= nums1[length1 - 1] && nums2[0] <= nums2[length2 - 1]) || (nums1[0] >= nums1[length1 - 1] && nums2[0] >= nums2[length2 - 1])) {
             return getMidValueByOne(nums1, nums2);
         } else {
             return getMidValueByTwo(nums1, nums2);
         }
     }
 
-    public double getMidValueByOne(int[] nums1, int[] nums2){
+    public double getMidValueByOne(int[] nums1, int[] nums2) {
         int length1 = nums1.length;
         int length2 = nums2.length;
         int length = length1 + length2;
-        if (nums1[0] <= nums1[length1-1] && nums2[0] <= nums2[length2-1]){
-            if ((length & 1) == 0){
-                int  i = 0, j = 0;
+        if (nums1[0] <= nums1[length1 - 1] && nums2[0] <= nums2[length2 - 1]) {
+            if ((length & 1) == 0) {
+                int i = 0, j = 0;
                 int temp = 0, temp1;
-                while ((i+j) != length >> 1) {
-                    if (i == length1){
+                while ((i + j) != length >> 1) {
+                    if (i == length1) {
                         temp = nums2[j];
                         j++;
-                    } else if (j == length2){
+                    } else if (j == length2) {
                         temp = nums1[i];
                         i++;
                     } else if (nums1[i] <= nums2[j]) {
@@ -62,13 +62,13 @@ public class Solution {
 
                 return (temp + temp1) / 2.0;
             } else {
-                int  i = 0, j = 0;
+                int i = 0, j = 0;
                 int temp = 0;
-                while ((i+j) != (length >> 1) + 1) {
-                    if (i == length1){
+                while ((i + j) != (length >> 1) + 1) {
+                    if (i == length1) {
                         temp = nums2[j];
                         j++;
-                    } else if (j == length2){
+                    } else if (j == length2) {
                         temp = nums1[i];
                         i++;
                     } else if (nums1[i] <= nums2[j]) {
@@ -81,16 +81,15 @@ public class Solution {
                 }
                 return temp;
             }
-        }
-        else {
-            if ((length & 1) == 0){
-                int  i = 0, j = 0;
+        } else {
+            if ((length & 1) == 0) {
+                int i = 0, j = 0;
                 int temp = 0, temp1;
-                while ((i+j) != length >> 1) {
-                    if (i == length1){
+                while ((i + j) != length >> 1) {
+                    if (i == length1) {
                         temp = nums2[j];
                         j++;
-                    } else if (j == length2){
+                    } else if (j == length2) {
                         temp = nums1[i];
                         i++;
                     } else if (nums1[i] >= nums2[j]) {
@@ -110,13 +109,13 @@ public class Solution {
 
                 return (temp + temp1) / 2.0;
             } else {
-                int  i = 0, j = 0;
+                int i = 0, j = 0;
                 int temp = 0;
-                while ((i+j) != (length >> 1) + 1) {
-                    if (i == length1){
+                while ((i + j) != (length >> 1) + 1) {
+                    if (i == length1) {
                         temp = nums2[j];
                         j++;
-                    } else if (j == length2){
+                    } else if (j == length2) {
                         temp = nums1[i];
                         i++;
                     } else if (nums1[i] >= nums2[j]) {
@@ -132,11 +131,12 @@ public class Solution {
         }
 
     }
-    public double getMidValueByTwo(int[] nums1, int[] nums2){
+
+    public double getMidValueByTwo(int[] nums1, int[] nums2) {
 
         int length1 = nums1.length;
         int length2 = nums2.length;
-        if (nums1[0] > nums1[length1-1] && nums2[0] < nums2[length2-1]){
+        if (nums1[0] > nums1[length1 - 1] && nums2[0] < nums2[length2 - 1]) {
             int num[] = nums1;
             nums1 = nums2;
             nums2 = num;
@@ -144,14 +144,14 @@ public class Solution {
         length1 = nums1.length;
         length2 = nums2.length;
         int length = length1 + length2;
-        if ((length & 1) == 0){
-            int  i = 0, j = length2-1;
+        if ((length & 1) == 0) {
+            int i = 0, j = length2 - 1;
             int temp = 0, temp1;
             while ((i + length2 - j - 1) != length >> 1) {
-                if (i == length1){
+                if (i == length1) {
                     temp = nums2[j];
                     j--;
-                } else if (j == -1){
+                } else if (j == -1) {
                     temp = nums1[i];
                     i++;
                 } else if (nums1[i] <= nums2[j]) {
@@ -171,13 +171,13 @@ public class Solution {
                 temp1 = nums1[i] < nums2[j] ? nums1[i] : nums2[j];
             return (temp + temp1) / 2.0;
         } else {
-            int  i = 0, j = length2 - 1;
+            int i = 0, j = length2 - 1;
             int temp = 0;
             while ((i + (length2 - j - 1)) != (length >> 1) + 1) {
-                if (i == length1){
+                if (i == length1) {
                     temp = nums2[j];
                     j--;
-                } else if (j == length2){
+                } else if (j == length2) {
                     temp = nums1[i];
                     i++;
                 } else if (nums1[i] <= nums2[j]) {
@@ -191,6 +191,7 @@ public class Solution {
             return temp;
         }
     }
+
     public double findMedianSortedArrays1(int[] A, int[] B) {
         int m = A.length, n = B.length;
         int l = (m + n + 1) / 2;
@@ -204,13 +205,13 @@ public class Solution {
         if (k == 1) return Math.min(A[aStart], B[bStart]);
 
         int aMid = Integer.MAX_VALUE, bMid = Integer.MAX_VALUE;
-        if (aStart + k/2 - 1 < A.length) aMid = A[aStart + k/2 - 1];
-        if (bStart + k/2 - 1 < B.length) bMid = B[bStart + k/2 - 1];
+        if (aStart + k / 2 - 1 < A.length) aMid = A[aStart + k / 2 - 1];
+        if (bStart + k / 2 - 1 < B.length) bMid = B[bStart + k / 2 - 1];
 
         if (aMid < bMid)
-            return getkth(A, aStart + k/2, B, bStart,       k - k/2);// Check: aRight + bLeft
+            return getkth(A, aStart + k / 2, B, bStart, k - k / 2);// Check: aRight + bLeft
         else
-            return getkth(A, aStart,       B, bStart + k/2, k - k/2);// Check: bRight + aLeft
+            return getkth(A, aStart, B, bStart + k / 2, k - k / 2);// Check: bRight + aLeft
     }
 
 
@@ -233,8 +234,8 @@ public class Solution {
         System.out.println(solution.findMedianSortedArrays(nums4_1, nums4_2));
         */
 
-        int nums3_1[] = {1,2,4,6, 8};
-        int nums3_2[] = {8,6,3,2};
+        int nums3_1[] = {1, 2, 4, 6, 8};
+        int nums3_2[] = {8, 6, 3, 2};
         System.out.println(solution.findMedianSortedArrays(nums3_2, nums3_1));
         System.out.println(solution.findMedianSortedArrays(nums3_1, nums3_2));
 

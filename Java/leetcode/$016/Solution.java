@@ -33,6 +33,10 @@ public class Solution {
     public static void main(String[] args) {
         int[] a = {0, 0, 0};
         Solution solution = new Solution();
-        System.out.println(solution.threeSumClosest(a, 1));
+        /// System.out.println(solution.threeSumClosest(a, 1));
+        String b = "你好吗";
+        String c = "nhm";
+        System.out.println(b.getBytes().length);
+        System.out.println(c.getBytes().length);
     }
 }
