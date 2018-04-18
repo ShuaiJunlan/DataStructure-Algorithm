@@ -17,7 +17,6 @@ public class Solution {
         head = head.next;
         ListNode mid = node;
         while (node != null && node.next != null){
-
             mid.next = node.next;
             mid = node;
             //swap two adjacent nodes
@@ -25,7 +24,6 @@ public class Solution {
             node.next.next = node;
             node.next = temp;
             node = temp;
-
         }
         return head;
     }
