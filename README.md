@@ -23,6 +23,7 @@
 > In the __C++__ folder, including algorithms in C++ language;
 
 ## Contact me:
-> Everyone who has a good idea can contact me for further exchange.</br>
-> Email : __shuaijunlan@gmail.com__ </br>
+> Everyone who has a good idea can contact me for further exchange.
+> Email : __shuaijunlan@gmail.com__ 
 > Blog : __[http://blog.shuaijunlan.cn](http://blog.shuaijunlan.cn "Junlan Shuai's Blog")__
+> Website:__[https://shuaijunlan.github.io/DataStructure-Algorithm/](https://shuaijunlan.github.io/DataStructure-Algorithm/)__
