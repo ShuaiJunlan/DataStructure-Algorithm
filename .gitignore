@@ -1,8 +1,8 @@
-C/leetcode/bin/
-C/leetcode/obj/
-C/leetcode/leetcode.cbp
-C/leetcode/leetcode.layout
-C/leetcode/leetcode.depend
-Java/.idea/
-Java/out/
-Java/Java.iml
+**/bin/
+**/obj/
+**/leetcode.cbp
+**/leetcode.layout
+**/leetcode.depend
+**/.idea/
+**/out/
+*.iml

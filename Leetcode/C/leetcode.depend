@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1508761548 source:e:\4-github-resp\datastructure-algorithm\c\leetcode\main.c
+	"main.h"
+
+1507947922 e:\4-github-resp\datastructure-algorithm\c\leetcode\a004.h
+
+1507948679 source:e:\4-github-resp\datastructure-algorithm\c\leetcode\a004.c
+	<limits.h>
+
+1508759368 e:\4-github-resp\datastructure-algorithm\c\leetcode\main.h
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+
+1508308340 source:e:\4-github-resp\datastructure-algorithm\c\leetcode\a008.c
+	<limits.h>
+
+1508575794 source:e:\4-github-resp\datastructure-algorithm\c\leetcode\a012.c
+	<string.h>
+
+1508586329 source:e:\4-github-resp\datastructure-algorithm\c\leetcode\a015.c
+
+1508757949 source:e:\4-github-resp\datastructure-algorithm\c\leetcode\a029.c
+
+1508762127 source:e:\4-github-resp\datastructure-algorithm\c\leetcode\a696.c
+
