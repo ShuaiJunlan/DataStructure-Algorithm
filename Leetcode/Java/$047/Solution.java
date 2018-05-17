@@ -44,11 +44,4 @@ public class Solution {
         nums[b] = temp;
     }
 
-    public static void main(String[] args) {
-        Integer a = 33;
-        Integer b = 33;
-        Boolean c = (a == b);
-        System.out.println(c);
-    }
-
 }
