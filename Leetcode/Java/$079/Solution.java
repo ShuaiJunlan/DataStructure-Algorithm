@@ -37,7 +37,6 @@ class Solution {
         }
 
         flag[curRow][curCol] = true;
-        //the order below has significant influence on time complexity
         //right
         search(c, i + 1, board, curRow, curCol + 1, flag);
         //down
