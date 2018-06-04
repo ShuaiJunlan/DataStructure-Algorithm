@@ -10,7 +10,6 @@ class Solution {
     public boolean exist(char[][] board, String word) {
         boolean[][] flag = new boolean[board.length][board[0].length];
         char[] c = word.toCharArray();
-
         for (int i = 0; i < board.length; i++) {
             for (int j = 0; j < board[0].length; j++) {
                 if (board[i][j] != c[0]) {
