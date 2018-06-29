@@ -8,26 +8,51 @@ import datastruc.ListNode;
  */
 public class Solution {
     public ListNode partition(ListNode head, int x) {
-        ListNode temp = new ListNode(0), pointer = head, tail = head;
-        while (temp != null){
-            if (temp.val < x){
-                ListNode node = temp;
-                temp = temp.next;
-                if(pointer.next == null){
-                    node.next = null;
-                }else {
-                    node.next = pointer.next.next;
-                }
+        ListNode temp = new ListNode(0), pointer = temp, tail = temp;
+        while (head != null){
+            ListNode node = head;
+
+            if (head.val < x){
+                head = head.next;
+                node.next = pointer.next;
                 pointer.next = node;
+                pointer = node;
+                if (pointer.next == null){
+                    tail = pointer;
+                }
 
             }else {
-                tail.next = temp;
-                tail = temp;
-                temp = temp.next;
+                head = head.next;
+                tail.next = node;
+                tail = node;
                 tail.next = null;
             }
         }
-        return head.next;
+        return temp.next;
+    }
+
+    public static void main(String[] args) {
+        ListNode head = new ListNode(1);
+        ListNode temp = head;
+
+        temp.next = new ListNode(4);
+        temp = temp.next;
+
+        temp.next = new ListNode(3);
+        temp = temp.next;
+
+        temp.next = new ListNode(2);
+        temp = temp.next;
+
+        temp.next = new ListNode(5);
+        temp = temp.next;
+
+        temp.next = new ListNode(2);
+        temp = temp.next;
+
+        Solution solution = new Solution();
+        solution.partition(head, 3);
+        System.out.println(1);
     }
 
 }
