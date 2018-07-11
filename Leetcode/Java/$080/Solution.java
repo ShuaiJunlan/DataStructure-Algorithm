@@ -14,7 +14,7 @@ public class Solution {
         }
         int ans = 2;
         for (int i = 2; i < nums.length; i++) {
-            if (nums[ans - 2] != nums[i] || nums[ans - 1] != nums[i]){
+            if (nums[ans - 2] != nums[i]){
                 nums[ans++] = nums[i];
             }
         }
