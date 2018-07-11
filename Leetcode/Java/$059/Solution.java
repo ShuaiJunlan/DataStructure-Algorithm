@@ -1,7 +1,5 @@
 package $059;
 
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * @author Junlan Shuai[shuaijunlan@gmail.com].
