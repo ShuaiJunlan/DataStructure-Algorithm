@@ -5,11 +5,11 @@ In order to enhance my designing capability of normal algorithm, I make a plan, 
 
 **Leetcode Part(117/856)**
 
-|  #   | Problems Description                                         | Solutions                                                    | Difficulty |  Beats  | Note |
-| :--: | ------------------------------------------------------------ | ------------------------------------------------------------ | :--------: | :-----: | ---- |
-| 053  | [ Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24053/Solution.java) |    Easy    | 100.00% |      |
-| 054  | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24054/Solution.java) |   Medium   | 100.00% |      |
-| 056  | [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24056/Solution.java) |   Medium   | 100.00% |      |
+|  #   | Problems Description                                         | Solutions                                                    | Difficulty |  Beats  | Notes |
+| :--: | ------------------------------------------------------------ | ------------------------------------------------------------ | :--------: | :-----: | ----- |
+| 053  | [ Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24053/Solution.java) |    Easy    | 100.00% |       |
+| 054  | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24054/Solution.java) |   Medium   | 100.00% |       |
+| 056  | [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24056/Solution.java) |   Medium   | 100.00% |       |
 
 
 ## Contact me
