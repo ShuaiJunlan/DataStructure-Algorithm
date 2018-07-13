@@ -7,7 +7,7 @@ In order to enhance my designing capability of normal algorithm, I make a plan, 
 
 |  #   | Problems Description                                         | Solutions                                                    | Difficulty |  Beats  | Notes |
 | :--: | ------------------------------------------------------------ | ------------------------------------------------------------ | :--------: | :-----: | ----- |
-| 053  | [ Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24053/Solution.java) |    Easy    | 21.99%  |       |
+| 053  | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24053/Solution.java) |    Easy    | 21.99%  |       |
 | 054  | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24054/Solution.java) |   Medium   | 100.00% |       |
 | 056  | [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24056/Solution.java) |   Medium   | 100.00% |       |
 | 058  | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24058/Solution.java) |    Easy    |  2.35%  |       |
