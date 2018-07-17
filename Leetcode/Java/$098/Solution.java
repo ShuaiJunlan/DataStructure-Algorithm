@@ -18,7 +18,7 @@ public class Solution {
         pre(root, nodes);
         TreeNode temp = nodes.poll();
         for (TreeNode node : nodes){
-            if (node.val < temp.val){
+            if (node.val <= temp.val){
                 return false;
             }
             temp = node;
