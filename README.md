@@ -4,7 +4,7 @@ In order to enhance my designing capability of normal algorithm, I make a plan, 
 
 #### Algorithms Statistics
 
-**LeetCode Part(117/856)**
+**LeetCode Part(120)**
 
 |  #   | Problems Description                                         |                          Solutions                           | Difficulty |  Beats  | Notes |
 | :--: | ------------------------------------------------------------ | :----------------------------------------------------------: | :--------: | :-----: | ----- |
@@ -35,7 +35,8 @@ In order to enhance my designing capability of normal algorithm, I make a plan, 
 | 094  | [ Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24094/Solution.java) |   Medium   | 97.45%  |       |
 | 095  | [ Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24095/Solution.java) |   Medium   | 98.99%  |       |
 | 096  | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24096/Solution.java) |   Medium   | 100.00% |       |
-| 097  | [Interleaving String](https://leetcode.com/problems/interleaving-string/) |                           [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24097/Solution.java)                           |    Hard    | 100.00% |       |
+| 097  | [Interleaving String](https://leetcode.com/problems/interleaving-string/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24097/Solution.java) |    Hard    | 100.00% |       |
+| 098  | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) |                           [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24098/Solution.java)                           |   Medium   | 94.76%  |       |
 | 099  | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24099/Solution.java) |    Hard    | 100.00% |       |
 | 100  | [ Same Tree](https://leetcode.com/problems/same-tree)        | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24100/Solution.java) |    Easy    | 100.00% |       |
 |      |                                                              |                                                              |            |         |       |
