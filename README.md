@@ -4,7 +4,7 @@ In order to enhance my designing capability of normal algorithm, I make a plan, 
 
 #### Algorithms Statistics
 
-**LeetCode Part(120)**
+**LeetCode Part(124)**
 
 |  #   | Problems Description                                         |                          Solutions                           | Difficulty |  Beats  | Notes |
 | :--: | ------------------------------------------------------------ | :----------------------------------------------------------: | :--------: | :-----: | ----- |
@@ -24,6 +24,7 @@ In order to enhance my designing capability of normal algorithm, I make a plan, 
 | 067  | [Add Binary](https://leetcode.com/problems/add-binary)       | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24067/Solution.java) |    Easy    | 16.56%  |       |
 | 069  | [Sqrt(x)](https://leetcode.com/problems/sqrtx)               | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24069/Solution.java) |    Easy    | 64.35%  |       |
 | 070  | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24070/Solution.java) |    Easy    | 100.00% |       |
+| 073  | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24073/Solution.java) |   Medium   | 100.00% |       |
 | 075  | [Sort Colors](https://leetcode.com/problems/sort-colors)     | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24075/Solution.java) |   Medium   | 90.91%  |       |
 | 077  | [Combinations](https://leetcode.com/problems/combinations)   | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24077/Solution.java) |   Medium   | 25.88%  |       |
 | 078  | [Subsets](https://leetcode.com/problems/subsets)             | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24078/Solution.java) |   Medium   | 91.35%  |       |
