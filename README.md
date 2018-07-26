@@ -4,10 +4,60 @@ In order to enhance my designing capability of normal algorithm, I make a plan, 
 
 #### Algorithms Statistics
 
-**LeetCode Part(124)**
+**LeetCode Part(128)**
 
 |  #   | Problems Description                                         |                          Solutions                           | Difficulty |  Beats  | Notes |
 | :--: | ------------------------------------------------------------ | :----------------------------------------------------------: | :--------: | :-----: | ----- |
+| 001  |                                                              |                                                              |            |         |       |
+| 002  |                                                              |                                                              |            |         |       |
+| 003  |                                                              |                                                              |            |         |       |
+| 004  |                                                              |                                                              |            |         |       |
+| 005  |                                                              |                                                              |            |         |       |
+| 006  |                                                              |                                                              |            |         |       |
+| 007  |                                                              |                                                              |            |         |       |
+| 008  |                                                              |                                                              |            |         |       |
+| 009  |                                                              |                                                              |            |         |       |
+| 010  |                                                              |                                                              |            |         |       |
+| 011  |                                                              |                                                              |            |         |       |
+| 012  |                                                              |                                                              |            |         |       |
+| 013  |                                                              |                                                              |            |         |       |
+| 014  |                                                              |                                                              |            |         |       |
+| 015  |                                                              |                                                              |            |         |       |
+| 016  |                                                              |                                                              |            |         |       |
+| 017  |                                                              |                                                              |            |         |       |
+| 018  |                                                              |                                                              |            |         |       |
+| 019  |                                                              |                                                              |            |         |       |
+| 020  |                                                              |                                                              |            |         |       |
+| 021  |                                                              |                                                              |            |         |       |
+| 022  |                                                              |                                                              |            |         |       |
+| 023  |                                                              |                                                              |            |         |       |
+| 024  |                                                              |                                                              |            |         |       |
+| 025  |                                                              |                                                              |            |         |       |
+| 026  |                                                              |                                                              |            |         |       |
+| 027  |                                                              |                                                              |            |         |       |
+| 028  |                                                              |                                                              |            |         |       |
+| 029  |                                                              |                                                              |            |         |       |
+| 030  |                                                              |                                                              |            |         |       |
+| 031  |                                                              |                                                              |            |         |       |
+| 032  |                                                              |                                                              |            |         |       |
+| 033  |                                                              |                                                              |            |         |       |
+| 034  |                                                              |                                                              |            |         |       |
+| 035  |                                                              |                                                              |            |         |       |
+| 036  |                                                              |                                                              |            |         |       |
+| 037  |                                                              |                                                              |            |         |       |
+| 038  |                                                              |                                                              |            |         |       |
+| 039  |                                                              |                                                              |            |         |       |
+| 040  |                                                              |                                                              |            |         |       |
+| 041  |                                                              |                                                              |            |         |       |
+| 042  |                                                              |                                                              |            |         |       |
+| 043  |                                                              |                                                              |            |         |       |
+| 044  |                                                              |                                                              |            |         |       |
+| 045  |                                                              |                                                              |            |         |       |
+| 046  |                                                              |                                                              |            |         |       |
+| 047  |                                                              |                                                              |            |         |       |
+| 048  |                                                              |                                                              |            |         |       |
+| 049  |                                                              |                                                              |            |         |       |
+| 050  |                                                              |                                                              |            |         |       |
 | 051  | [N-Queens](https://leetcode.com/problems/n-queens)           | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24051/Solution.java) |    Hard    | 94.81%  |       |
 | 053  | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24053/Solution.java) |    Easy    | 21.99%  |       |
 | 054  | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24054/Solution.java) |   Medium   | 100.00% |       |
@@ -31,6 +81,7 @@ In order to enhance my designing capability of normal algorithm, I make a plan, 
 | 078  | [Subsets](https://leetcode.com/problems/subsets)             | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24078/Solution.java) |   Medium   | 91.35%  |       |
 | 079  | [Word Search](https://leetcode.com/problems/word-search)     | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24079/Solution.java) |   Medium   | 99.84%  |       |
 | 080  | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24080/Solution.java) |   Medium   | 100.00% |       |
+| 081  | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24081/Solution.java) |   Medium   | 100.00% |       |
 | 083  | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24083/Solution.java) |    Easy    | 94.28%  |       |
 | 086  | [Partition List](https://leetcode.com/problems/partition-list) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24086/Solution.java) |   Medium   | 93.78%  |       |
 | 088  | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24088/Solution.java) |    Easy    | 46.62%  |       |
