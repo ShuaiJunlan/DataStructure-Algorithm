@@ -8,16 +8,16 @@ In order to enhance my designing capability of normal algorithm, I make a plan, 
 
 |  #   | Problems Description                                         |                          Solutions                           | Difficulty |  Beats  | Notes |
 | :--: | ------------------------------------------------------------ | :----------------------------------------------------------: | :--------: | :-----: | ----- |
-| 001  |                                                              |                                                              |            |         |       |
-| 002  |                                                              |                                                              |            |         |       |
-| 003  |                                                              |                                                              |            |         |       |
-| 004  |                                                              |                                                              |            |         |       |
-| 005  |                                                              |                                                              |            |         |       |
-| 006  |                                                              |                                                              |            |         |       |
-| 007  |                                                              |                                                              |            |         |       |
-| 008  |                                                              |                                                              |            |         |       |
-| 009  |                                                              |                                                              |            |         |       |
-| 010  |                                                              |                                                              |            |         |       |
+| 001  | [Two Sum](https://leetcode.com/problems/two-sum)             | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24001/Solution.java) |    Easy    | 44.24%  |       |
+| 002  | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24002/Solution.java) |   Medium   |  1.90%  |       |
+| 003  | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24003/Solution.java) |   Medium   | 15.18%  |       |
+| 004  | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24004/Solution.java) |    Hard    |  3.99%  |       |
+| 005  | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24005/Solution.java) |   Medium   | 60.58%  |       |
+| 006  | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24006/Solution.java) |   Medium   |  9.80%  |       |
+| 007  | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24007/Solution.java) |    Easy    |         |       |
+| 008  | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24008/Solution.java) |   Medium   |  7.62%  |       |
+| 009  | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24009/Solution.java) |    Easy    |         |       |
+| 010  | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24010/Solution.java) |    Hard    | 28.10%  |       |
 | 011  |                                                              |                                                              |            |         |       |
 | 012  |                                                              |                                                              |            |         |       |
 | 013  |                                                              |                                                              |            |         |       |
@@ -105,6 +105,6 @@ Everyone who has a good idea can contact me for further exchange.
 
 Email : __shuaijunlan@gmail.com__ 
 
-Blog : __[http://blog.shuaijunlan.cn](http://blog.shuaijunlan.cn "Junlan Shuai's Blog")__
+Blog : __[https://shuaijunlan.github.io](https://shuaijunlan.github.io)__
 
 Website : __[https://shuaijunlan.github.io/DataStructure-Algorithm/](https://shuaijunlan.github.io/DataStructure-Algorithm/)__
