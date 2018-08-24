@@ -1,28 +1,114 @@
-# DataStructure-Algorithm
-## Description
-> In order to enhance my designing capability of normal algorithm, I make a plan, exercising
-> algorithm everyday. So this responsity is used for storing algorithm programs, which include
-> ___LeetCode___ algorithms and ___Sword Offer___ algorithms, and using three kinds of program
-> language(Java/C/C++) to achieve it. Ok, you can visit my [leetcode home page](https://leetcode.com/shuaijunlan/ "leetcode home page") for further details.
+## DataStructure-Algorithm
 
-## Project structure
-> Folder structure
+In order to enhance my designing capability of normal algorithm, I make a plan, exercising algorithm everyday. So this repository is used for storing algorithm programs, which include ___LeetCode___ algorithms and ___Sword Offer___ algorithms, and using three kinds of program language(Java/C/C++) to achieve it. Ok, you can visit my [leetcode home page](https://leetcode.com/shuaijunlan/ "leetcode home page") for further details.
 
-* Leetcode
-    * Java
-    * C
+#### Algorithms Statistics
 
-> In the __Java__ folder, including algorithms in Java language;
->
-> In the __C__ folder, including algorithms in C language;
->
-> In the __C++__ folder, including algorithms in C++ language;
+**LeetCode Part(128)**
 
-## Contact me
-> Everyone who has a good idea can contact me for further exchange.
->
-> Email : __shuaijunlan@gmail.com__ 
->
-> Blog : __[http://blog.shuaijunlan.cn](http://blog.shuaijunlan.cn "Junlan Shuai's Blog")__
->
-> Website : __[https://shuaijunlan.github.io/DataStructure-Algorithm/](https://shuaijunlan.github.io/DataStructure-Algorithm/)__
+|  #   | Problems Description                                         |                          Solutions                           | Difficulty |  Beats  | Notes                                                        |
+| :--: | ------------------------------------------------------------ | :----------------------------------------------------------: | :--------: | :-----: | ------------------------------------------------------------ |
+| 001  | [Two Sum](https://leetcode.com/problems/two-sum)             | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24001/Solution.java) |    Easy    | 44.24%  |                                                              |
+| 002  | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24002/Solution.java) |   Medium   |  1.90%  |                                                              |
+| 003  | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24003/Solution.java) |   Medium   | 15.18%  |                                                              |
+| 004  | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24004/Solution.java) |    Hard    |  3.99%  |                                                              |
+| 005  | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24005/Solution.java) |   Medium   | 60.58%  |                                                              |
+| 006  | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24006/Solution.java) |   Medium   |  9.80%  |                                                              |
+| 007  | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24007/Solution.java) |    Easy    |         |                                                              |
+| 008  | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24008/Solution.java) |   Medium   |  7.62%  |                                                              |
+| 009  | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24009/Solution.java) |    Easy    |         |                                                              |
+| 010  | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24010/Solution.java) |    Hard    | 28.10%  |                                                              |
+| 011  |                                                              |                                                              |            |         |                                                              |
+| 012  |                                                              |                                                              |            |         |                                                              |
+| 013  |                                                              |                                                              |            |         |                                                              |
+| 014  |                                                              |                                                              |            |         |                                                              |
+| 015  |                                                              |                                                              |            |         |                                                              |
+| 016  |                                                              |                                                              |            |         |                                                              |
+| 017  |                                                              |                                                              |            |         |                                                              |
+| 018  |                                                              |                                                              |            |         |                                                              |
+| 019  |                                                              |                                                              |            |         |                                                              |
+| 020  |                                                              |                                                              |            |         |                                                              |
+| 021  |                                                              |                                                              |            |         |                                                              |
+| 022  |                                                              |                                                              |            |         |                                                              |
+| 023  |                                                              |                                                              |            |         |                                                              |
+| 024  |                                                              |                                                              |            |         |                                                              |
+| 025  |                                                              |                                                              |            |         |                                                              |
+| 026  |                                                              |                                                              |            |         |                                                              |
+| 027  |                                                              |                                                              |            |         |                                                              |
+| 028  |                                                              |                                                              |            |         |                                                              |
+| 029  |                                                              |                                                              |            |         |                                                              |
+| 030  |                                                              |                                                              |            |         |                                                              |
+| 031  | [Next Permutation](https://leetcode.com/problems/next-permutation/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24031/Solution.java) |   Medium   | 90.93%  |                                                              |
+| 032  |                                                              |                                                              |            |         |                                                              |
+| 033  |                                                              |                                                              |            |         |                                                              |
+| 034  | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24034/Solution.java) |   Medium   | 12.01%  |                                                              |
+| 035  |                                                              |                                                              |            |         |                                                              |
+| 036  |                                                              |                                                              |            |         |                                                              |
+| 037  |                                                              |                                                              |            |         |                                                              |
+| 038  |                                                              |                                                              |            |         |                                                              |
+| 039  |                                                              |                                                              |            |         |                                                              |
+| 040  |                                                              |                                                              |            |         |                                                              |
+| 041  |                                                              |                                                              |            |         |                                                              |
+| 042  |                                                              |                                                              |            |         |                                                              |
+| 043  | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24043/Solution.java) |   Medium   | 93.79%  | [Note](https://leetcode.com/problems/multiply-strings/discuss/17605/Easiest-JAVA-Solution-with-Graph-Explanation) |
+| 044  |                                                              |                                                              |            |         |                                                              |
+| 045  |                                                              |                                                              |            |         |                                                              |
+| 046  |                                                              |                                                              |            |         |                                                              |
+| 047  |                                                              |                                                              |            |         |                                                              |
+| 048  |                                                              |                                                              |            |         |                                                              |
+| 049  |                                                              |                                                              |            |         |                                                              |
+| 050  |                                                              |                                                              |            |         |                                                              |
+| 051  | [N-Queens](https://leetcode.com/problems/n-queens)           | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24051/Solution.java) |    Hard    | 94.81%  |                                                              |
+| 053  | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24053/Solution.java) |    Easy    | 21.99%  |                                                              |
+| 054  | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24054/Solution.java) |   Medium   | 100.00% |                                                              |
+| 055  | [Jump Game](https://leetcode.com/problems/jump-game/)        | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24055/Solution.java) |   Medium   | 100.00% |                                                              |
+| 056  | [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24056/Solution.java) |   Medium   | 100.00% |                                                              |
+| 057  | [Insert Interval](https://leetcode.com/problems/insert-interval/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24057/Solution.java) |    Hard    | 68.57%  |                                                              |
+| 058  | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24058/Solution.java) |    Easy    |  2.35%  |                                                              |
+| 059  | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24059/Solution.java) |   Medium   | 100.00% |                                                              |
+| 060  | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24060/Solution.java) |   Medium   | 52.67%  |                                                              |
+| 061  | [Rotate List](https://leetcode.com/problems/rotate-list)     | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24061/Solution.java) |   Medium   | 95.14%  |                                                              |
+| 062  | [Unique Paths](https://leetcode.com/problems/unique-paths)   | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24062/Solution.java) |   Medium   | 100.00% |                                                              |
+| 063  | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24063/Solution.java) |   Medium   | 100.00% |                                                              |
+| 064  | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24064/Solution.java) |   Medium   | 93.82%  |                                                              |
+| 066  | [Plus One](https://leetcode.com/problems/plus-one)           | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24066/Solution.java) |    Easy    | 88.43%  |                                                              |
+| 067  | [Add Binary](https://leetcode.com/problems/add-binary)       | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24067/Solution.java) |    Easy    | 16.56%  |                                                              |
+| 069  | [Sqrt(x)](https://leetcode.com/problems/sqrtx)               | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24069/Solution.java) |    Easy    | 64.35%  |                                                              |
+| 070  | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24070/Solution.java) |    Easy    | 100.00% |                                                              |
+| 071  | [Simplify Path](https://leetcode.com/problems/simplify-path/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24071/Solution.java) |   Medium   | 86.48%  |                                                              |
+| 073  | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24073/Solution.java) |   Medium   | 100.00% |                                                              |
+| 074  | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24074/Solution.java) |   Medium   | 86.01%  |                                                              |
+| 075  | [Sort Colors](https://leetcode.com/problems/sort-colors)     | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24075/Solution.java) |   Medium   | 90.91%  |                                                              |
+| 077  | [Combinations](https://leetcode.com/problems/combinations)   | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24077/Solution.java) |   Medium   | 25.88%  |                                                              |
+| 078  | [Subsets](https://leetcode.com/problems/subsets)             | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24078/Solution.java) |   Medium   | 91.35%  |                                                              |
+| 079  | [Word Search](https://leetcode.com/problems/word-search)     | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24079/Solution.java) |   Medium   | 99.84%  |                                                              |
+| 080  | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24080/Solution.java) |   Medium   | 100.00% |                                                              |
+| 081  | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24081/Solution.java) |   Medium   | 100.00% |                                                              |
+| 083  | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24083/Solution.java) |    Easy    | 94.28%  |                                                              |
+| 086  | [Partition List](https://leetcode.com/problems/partition-list) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24086/Solution.java) |   Medium   | 93.78%  |                                                              |
+| 088  | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24088/Solution.java) |    Easy    | 46.62%  |                                                              |
+| 089  | [Gray Code](https://leetcode.com/problems/gray-code)         | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24089/Solution.java) |   Medium   | 100.00% |                                                              |
+| 090  | [ Subsets II](https://leetcode.com/problems/subsets-ii)      | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24090/Solution.java) |   Medium   | 67.87%  |                                                              |
+| 091  | [Decode Ways](https://leetcode.com/problems/decode-ways/)    | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24091/Solution.java) |   Medium   | 64.48%  |                                                              |
+| 092  | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24092/Solution.java) |   Medium   | 100.00% |                                                              |
+| 093  | [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24093/Solution.java) |   Medium   | 99.55%  |                                                              |
+| 094  | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24094/Solution.java) |   Medium   | 97.45%  |                                                              |
+| 095  | [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24095/Solution.java) |   Medium   | 98.99%  |                                                              |
+| 096  | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24096/Solution.java) |   Medium   | 100.00% |                                                              |
+| 097  | [Interleaving String](https://leetcode.com/problems/interleaving-string/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24097/Solution.java) |    Hard    | 100.00% |                                                              |
+| 098  | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24098/Solution.java) |   Medium   | 94.76%  |                                                              |
+| 099  | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24099/Solution.java) |    Hard    | 100.00% |                                                              |
+| 100  | [Same Tree](https://leetcode.com/problems/same-tree)         | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24100/Solution.java) |    Easy    | 100.00% |                                                              |
+| 106  | [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24106/Solution.java) |   Medium   | 91.33%  |                                                              |
+| 107  | [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24107/Solution.java) |    Easy    | 98.90%  |                                                              |
+| 148  | [Sort List](https://leetcode.com/problems/sort-list/)        | [Java](https://github.com/shuaijunlan/DataStructure-Algorithm/blob/master/Leetcode/Java/%24148/Solution.java) |   Medium   | 30.94%  |                                                              |
+
+#### Contact me
+
+Everyone who has a good idea can contact me for further exchange.
+
+Email : __shuaijunlan@gmail.com__ 
+
+Blog : __[https://shuaijunlan.github.io](https://shuaijunlan.github.io)__
+
+Website : __[https://shuaijunlan.github.io/DataStructure-Algorithm/](https://shuaijunlan.github.io/DataStructure-Algorithm/)__
