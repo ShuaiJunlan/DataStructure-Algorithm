@@ -11,7 +11,7 @@ public class Solution {
         if (head == null || head.next == null){
             return null;
         }
-        //if fast = head.next.next, slow = head.next, then  it mate be dead loop when tail node connects to head.
+        //if fast = head.next.next, slow = head, then it may be dead loop when tail node connects to the head.
         ListNode fast = head.next.next, slow = head.next;
         while (fast != null && fast.next != null){
             if (fast == slow){
