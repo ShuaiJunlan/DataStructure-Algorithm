@@ -4,6 +4,10 @@ In order to enhance my designing capability of normal algorithm, I make a plan, 
 
 #### Algorithms Statistics
 
+**Interesting Algorithm Accumulation**
+
+Visiting page [Interesting Algorithm Accumulation](/accumulation.md)
+
 **LeetCode Part(128)**
 
 |  #   | Problems Description                                         |                          Solutions                           | Difficulty |  Beats  | Notes                                                        |
