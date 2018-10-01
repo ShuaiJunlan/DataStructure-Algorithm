@@ -18,7 +18,7 @@ public class Solution {
         }
 
         ListNode preMiddle = middle, preCurrent = middle.next;
-        while (preCurrent != null){
+        while (preCurrent.next != null){
             ListNode temp = preCurrent.next;
             preMiddle.next = temp;
             preCurrent.next = temp.next;
