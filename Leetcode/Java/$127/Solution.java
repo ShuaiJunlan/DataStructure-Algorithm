@@ -41,6 +41,6 @@ public class Solution {
     public static void main(String[] args) {
         Solution solution = new Solution();
         String words[] = {"hot","dot","dog","lot","log"};
-        System.out.println(solution.ladderLength("hit", "cog",new ArrayList<String>().add(words)));
+//        System.out.println(solution.ladderLength("hit", "cog",new ArrayList<String>().add(words)));
     }
 }
