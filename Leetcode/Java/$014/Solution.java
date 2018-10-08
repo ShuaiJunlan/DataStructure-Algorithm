@@ -2,7 +2,7 @@ package $014;
 
 /**
  * @author Junlan Shuai[shuaijunlan@gmail.com].
- * @date Created on 9:07 2018/3/15.
+ * @date  Created on 9:07 2018/3/15.
  */
 public class Solution {
     public String longestCommonPrefix(String[] strs){
@@ -21,22 +21,22 @@ public class Solution {
                 targetStr = targetStr.substring(0, targetStr.length()-1);
             }
         }
-//        String targetStr =  "";
-//        for(String str : strs){
-//            if ("".equals(str)){
-//                return "";
-//            }
-//            if ("".equals(targetStr)){
-//                targetStr = str;
-//                continue;
-//            }
-//            while (str.indexOf(targetStr) != 0){
-//                if (targetStr.length() <= 1){
-//                    return "";
-//                }
-//                targetStr = targetStr.substring(0, targetStr.length()-1);
-//            }
-//        }
+        // String targetStr =  "";
+        // for(String str : strs){
+        //    if ("".equals(str)){
+        //        return "";
+        //    }
+        //    if ("".equals(targetStr)){
+        //        targetStr = str;
+        //        continue;
+        //    }
+        //    while (str.indexOf(targetStr) != 0){
+        //        if (targetStr.length() <= 1){
+        //            return "";
+        //        }
+        //        targetStr = targetStr.substring(0, targetStr.length()-1);
+        //    }
+        // }
         return targetStr;
     }
 
