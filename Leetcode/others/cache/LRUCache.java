@@ -5,6 +5,10 @@ import java.util.HashMap;
 /**
  * @author Shuai Junlan[shuaijunlan@gmail.com].
  * @since Created in 10:03 AM 1/21/19.
+ *
+ * TODO: Achieving an timeout replacing strategy
+ *  https://github.com/crossoverJie/JCSprout/blob/master/src/main/java/com/crossoverjie/actual/LRUAbstractMap.java
+ *  https://segmentfault.com/a/1190000014229168
  */
 public class LRUCache<K, V> {
     private final HashMap<K, Node> hashMap = new HashMap<>();
