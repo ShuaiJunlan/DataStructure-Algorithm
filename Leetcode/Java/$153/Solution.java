@@ -10,20 +10,15 @@ public class Solution {
             throw new NullPointerException();
         }
         int left = 0, right = nums.length - 1, mid = 0;
-        if (nums[right] >= nums[left]){
-            return nums[left];
-        }
-        while (left < right){
+        while (left + 1 < right){
             mid = left + ((right-left)>>1);
-            if (nums[mid] > nums[left]){
+            if (nums[mid] > nums[right]){
                 left = mid;
-            } else if (nums[mid] == nums[left]){
-                return Math.min(nums[left], nums[right]);
             } else {
                 right = mid;
             }
         }
-        return nums[mid];
+        return Math.min(nums[left], nums[right]);
     }
 
     public static void main(String[] args) {
