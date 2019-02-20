@@ -27,17 +27,17 @@ public class Main1 {
         for (int k = 0; k < N; k++) {
             for (int i = 0; i < N; i++) {
                 for (int j = 0; j < N; j++) {
-                    if (i == j || i == k || j == k)
+                    if (i == j || i == k || j == k) {
                         continue;
+                    }
                     if (metrix[i][k] != 0 && metrix[k][j] != 0) {
                         int total = metrix[i][k] + metrix[k][j];
-                        if (total < metrix[i][j] || metrix[i][j] == 0)
+                        if (total < metrix[i][j] || metrix[i][j] == 0){
                             metrix[i][j] = total;
 
+                        }
                     }
-
                 }
-
             }
         }
         System.out.println(metrix[S-1][T-1] + metrix[T-1][S-1]);
