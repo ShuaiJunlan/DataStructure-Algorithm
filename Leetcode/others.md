@@ -15,3 +15,9 @@
 #### Floyd算法
 #### References
 * [最短路径—Dijkstra算法和Floyd算法](https://www.cnblogs.com/biyeymyhjob/archive/2012/07/31/2615833.html)
+
+### 最小生成树算法
+#### Kruskal算法
+#### Prim算法
+#### References
+* [算法导论--最小生成树（Kruskal和Prim算法）](https://blog.csdn.net/luoshixian099/article/details/51908175)
