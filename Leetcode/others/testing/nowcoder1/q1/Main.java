@@ -1,5 +1,7 @@
 package testing.nowcoder1.q1;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.util.Scanner;
 
 /**
@@ -9,6 +11,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        Scanner in = new Scanner(new BufferedReader(new InputStreamReader(System.in)));
         int x = scanner.nextInt();
         int f = scanner.nextInt();
         int d = scanner.nextInt();
