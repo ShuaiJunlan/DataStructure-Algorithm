@@ -15,7 +15,7 @@ public class Solution_Recursion {
         recursion(root, linkedList, 0);
         return linkedList;
     }
-    private void recursion(TreeNode root, List re, int depth){
+    private void recursion(TreeNode root, List<Integer> re, int depth){
         if (root == null){
             return;
         }
