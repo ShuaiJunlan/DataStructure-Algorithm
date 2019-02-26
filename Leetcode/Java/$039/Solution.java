@@ -1,6 +1,7 @@
 package $039;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -13,10 +14,11 @@ public class Solution {
         if (candidates == null || candidates.length == 0){
             return result;
         }
+        Arrays.sort(candidates); //soring
         back(result, new ArrayList<>(), candidates, 0, target);
         return result;
     }
-    public void back(List<List<Integer>> lists, List<Integer> tmp, int[] candidates, Integer index, Integer remain){
+    private void back(List<List<Integer>> lists, List<Integer> tmp, int[] candidates, int index, int remain){
         if (remain == 0){
             lists.add(new ArrayList<>(tmp));
             return;
@@ -24,7 +26,7 @@ public class Solution {
         if (remain < 0){
             return;
         }
-        for (int i = index; i < candidates.length; i++){
+        for (int i = index; i < candidates.length && remain >= candidates[i]; i++){
             tmp.add(candidates[i]);
             back(lists, tmp, candidates, i, remain - candidates[i]);
             tmp.remove(tmp.size()-1);

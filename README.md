@@ -4,7 +4,7 @@ In order to enhance my designing capability of normal algorithm, I make a plan, 
 
 #### Algorithms Statistics
 
-**LeetCode Part(128)**
+**LeetCode Part(165)**
 
 |  #   | Problems Description                                         |                          Solutions                           | Difficulty |  Beats  | Notes                                                        |
 | :--: | ------------------------------------------------------------ | :----------------------------------------------------------: | :--------: | :-----: | ------------------------------------------------------------ |
