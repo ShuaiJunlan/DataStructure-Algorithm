@@ -21,3 +21,8 @@
 #### Prim算法
 #### References
 * [算法导论--最小生成树（Kruskal和Prim算法）](https://blog.csdn.net/luoshixian099/article/details/51908175)
+
+### Trie(前缀树、字典树)算法
+#### Reference
+* [Trie树（Prefix Tree）介绍](https://blog.csdn.net/lisonglisonglisong/article/details/45584721)
+* [为什么 360 面试官说 Trie 树没用？](https://www.zhihu.com/question/27168319)
