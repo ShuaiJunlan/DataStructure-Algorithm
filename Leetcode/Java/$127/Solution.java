@@ -1,8 +1,8 @@
 package $127;
 
-import datastruc.ListNode;
-
-import java.util.*;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 /**
  * @author Junlan Shuai[shuaijunlan@gmail.com].
@@ -10,37 +10,40 @@ import java.util.*;
  */
 public class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordDict){
-        Set<String> reached = new HashSet<>();
-        reached.add(beginWord);
-        wordDict.add(endWord);
-        int distance = 1;
-        while (!reached.contains(endWord)){
-            Set<String> toAdd = new HashSet<>();
-            for (String each : reached){
-                for (int i = 0; i < each.length(); i++){
-                    char[] chars = each.toCharArray();
-                    for (char ch = 'a'; ch <= 'z'; ch++){
-                        chars[i] = ch;
-                        String word = String.valueOf(chars);
-                        if (wordDict.contains(word)){
-                            toAdd.add(word);
-                            wordDict.remove(word);
+        Set<String> beginSet = new HashSet<>(), endSet = new HashSet<>(), wordSet = new HashSet<>(wordDict), visited = new HashSet<>();
+        if (!wordDict.contains(endWord)){
+            return 0;
+        }
+        int len = 1, strLen = beginWord.length();
+        beginSet.add(beginWord);
+        endSet.add(endWord);
+        while (!beginSet.isEmpty() && !endSet.isEmpty()){
+            if (beginSet.size() > endSet.size()){
+                Set<String> temp = beginSet;
+                beginSet = endSet;
+                endSet = temp;
+            }
+            Set<String> tempSet = new HashSet<>();
+            for (String s : beginSet){
+                char[] chars = s.toCharArray();
+                for (int i = 0; i < strLen; i++){
+                    char old = chars[i];
+                    for (char j = 'a'; j <= 'z'; j++){
+                        chars[i] = j;
+                        String temp = new String(chars);
+                        if (endSet.contains(temp)){
+                            return len+1;
+                        }
+                        if (visited.add(temp) && wordSet.contains(temp)){
+                            tempSet.add(temp);
                         }
                     }
+                    chars[i] = old;
                 }
             }
-            distance++;
-            if (toAdd.size() == 0){
-                return 0;
-            }
-            reached = toAdd;
+            beginSet = tempSet;
+            len++;
         }
-        return distance;
-    }
-
-    public static void main(String[] args) {
-        Solution solution = new Solution();
-        String words[] = {"hot","dot","dog","lot","log"};
-//        System.out.println(solution.ladderLength("hit", "cog",new ArrayList<String>().add(words)));
+        return 0;
     }
 }

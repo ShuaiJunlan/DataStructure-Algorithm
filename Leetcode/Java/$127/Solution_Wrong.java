@@ -1,48 +1,40 @@
 package $127;
 
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 /**
  * @author Junlan Shuai[shuaijunlan@gmail.com].
  * @date Created on 15:37 2018/10/7.
  */
 public class Solution_Wrong {
-    public int ladderLength(String beginWord, String endWord, List<String> wordList){
-        Set<String> beginSet = new HashSet<>(), endSet = new HashSet<>();
-        int len = 1;
-        Set<String> visited = new HashSet<>();
-        beginSet.add(beginWord);
-        endSet.add(endWord);
-        while (!beginSet.isEmpty() && !endSet.isEmpty()){
-            if (beginSet.size() > endSet.size()){
-                Set<String> temp = beginSet;
-                beginSet = endSet;
-                endSet = temp;
-            }
-            Set<String> temp = new HashSet<>();
-            for (String word : beginSet){
-                char[] chs = word.toCharArray();
-                for (int i = 0; i < chs.length; i++){
-                    for (char c = 'a'; c <= 'z'; c++){
-                        char old = chs[i];
-                        chs[i] = c;
-                        String target = String.valueOf(chs);
-                        if (endSet.contains(target)){
-                            return len + 1;
+    public int ladderLength(String beginWord, String endWord, List<String> wordList) {
+        Set<String> wordSet = new HashSet<>(wordList);
+        wordSet.add(endWord);
+        Queue<String> queue = new LinkedList<String>();
+        queue.add(beginWord);
+        int level = 0;
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            for (int i = 0; i < size; i++) {
+                String cur = queue.remove();
+                if (cur.equals(endWord)) {
+                    return level + 1;
+                }
+                for (int j = 0; j < cur.length(); j++) {
+                    char[] word = cur.toCharArray();
+                    for (char ch = 'a'; ch < 'z'; ch++) {
+                        word[j] = ch;
+                        String check = new String(word);
+                        if (!check.equals(cur) && wordSet.contains(check)) {
+                            queue.add(check);
+                            wordSet.remove(check);
                         }
-                        if (!visited.contains(target) && wordList.contains(target)){
-                            temp.add(target);
-                            visited.add(target);
-                        }
-                        chs[i] = old;
                     }
                 }
             }
-            beginSet = temp;
-            len++;
+            level++;
         }
         return 0;
+
     }
 }
