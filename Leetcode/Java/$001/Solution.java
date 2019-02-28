@@ -10,18 +10,15 @@ import java.util.HashMap;
 public class Solution {
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> hashMap = new HashMap<>();
-        int temp, length = nums.length;
-        int[] re = new int[2];
+        Integer temp, length = nums.length;
         for (int i = 0; i < length; i++) {
-            temp = target - nums[i];
-            if (hashMap.containsKey(temp)) {
-                re[1] = i;
-                re[0] = hashMap.get(temp);
-                break;
+
+            if ((temp = hashMap.get(target-nums[i])) != null) {
+                return new int[]{i, temp};
             }
             hashMap.put(nums[i], i);
         }
-        return re;
+        return null;
     }
     public static void main(String[] args) {
         int[] nums = {2, 7, 11, 15};

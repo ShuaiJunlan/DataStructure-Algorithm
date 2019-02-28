@@ -1,6 +1,5 @@
 package $015;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -19,31 +18,34 @@ public class Solution {
         Arrays.sort(nums);
 
         for (int i = 0; i < nums.length; i++){
-
-            int left = i + 1, right = nums.length - 1, sum = 0 - nums[i];
+            if (i > 0 && i < nums.length - 1 && nums[i] == nums[i-1]){ // important
+                continue;
+            }
+            int left = i + 1, right = nums.length - 1, sum = -nums[i];
             while (left < right){
                 if (nums[left] + nums[right] == sum){
                     arrayLists.add(Arrays.asList(nums[i], nums[left], nums[right]));
                     while (left < right && nums[left] == nums[left+1]){
                         left++;
                     }
+                    left++;
                     while (right > left && nums[right] == nums[right-1]){
                         right--;
                     }
-                    left++;
                     right--;
                 }else if (nums[left] + nums[right] < sum){
+                    while (left < right && nums[left] == nums[left+1]){
+                        left++;
+                    }
                     left++;
                 }else {
+                    while (right > left && nums[right] == nums[right-1]){
+                        right--;
+                    }
                     right--;
                 }
 
             }
-            // pay attention to this
-            while (i < nums.length - 1 && nums[i] == nums[i+1]){
-                i++;
-            }
-
         }
         return arrayLists;
     }
