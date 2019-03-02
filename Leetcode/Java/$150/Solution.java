@@ -13,16 +13,16 @@ public class Solution {
         }
         Stack<Integer> stack = new Stack<>();
         for (String c : tokens){
-            if (c.equals("+")){
+            if ("+".equals(c)){
                 int a = stack.pop(), b = stack.pop();
                 stack.push(a+b);
-            }else if (c.equals("-")){
+            }else if ("-".equals(c)){
                 int a = stack.pop(), b = stack.pop();
                 stack.push(b-a);
-            }else if (c.equals("*")){
+            }else if ("*".equals(c)){
                 int a = stack.pop(), b = stack.pop();
                 stack.push(a*b);
-            }else if (c.equals("/")){
+            }else if ("/".equals(c)){
                 int a = stack.pop(), b = stack.pop();
                 stack.push(b/a);
             }else {
