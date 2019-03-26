@@ -146,7 +146,7 @@ public abstract class Tree<N extends TreeNode> {
         TreeNode p;
         while (!queue.isEmpty()){
             p = queue.pop();
-            order(root);
+            order(p);
             if (p.left != null){
                 queue.add(p.left);
             }
@@ -169,7 +169,7 @@ public abstract class Tree<N extends TreeNode> {
         TreeNode p;
         while (!stack.isEmpty()){
             p = stack.pop();
-            order(root);
+            order(p);
             if (p.left != null){
                 stack.push(p.left);
             }
@@ -178,5 +178,4 @@ public abstract class Tree<N extends TreeNode> {
             }
         }
     }
-
 }
