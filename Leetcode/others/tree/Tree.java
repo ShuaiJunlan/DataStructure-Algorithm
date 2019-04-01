@@ -20,7 +20,7 @@ public abstract class Tree<N extends TreeNode> {
     public abstract TreeNode remove();
 
     /**
-     * @param node
+     * @param node tree node
      */
     public abstract void preOrder(TreeNode node);
 
