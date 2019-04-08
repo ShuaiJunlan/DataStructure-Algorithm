@@ -9,6 +9,9 @@
 
 #### 扩展
 ##### 如何让排序算法稳定？
+##### 排序算法稳定性的意义？
+> 例如要排序的内容是一组原本按照价格高低排序的对象，如今需要按照销量高低排序，使用稳定性算法，可以使得想同销量的对象依旧保持着价格高低的排序展现，只有销量不同的才会重新排序。**(可以借鉴淘宝购物界面的排序场景，如果先根据商品的价格排序，然后再根据商品的销量排序，我们肯定是希望具有相同销量的产品价格低的排在前面，从而使用稳定的排序算法可以获得这个结果)**
+* [排序算法的稳定性及其意义](https://blog.csdn.net/u012501054/article/details/79342580)
 
 #### Reference
 * [十大经典排序算法（动图演示）](https://www.cnblogs.com/onepixel/p/7674659.html)
@@ -30,8 +33,13 @@
 * [Trie树（Prefix Tree）介绍](https://blog.csdn.net/lisonglisonglisong/article/details/45584721)
 * [为什么 360 面试官说 Trie 树没用？](https://www.zhihu.com/question/27168319)
 
+### *k*-d树
+
+* [*k*-d树](https://zh.wikipedia.org/wiki/K-d%E6%A0%91)
+
 ### KMP算法
 
 ### 技巧
 #### 并查集
 #### 快速幂
+
