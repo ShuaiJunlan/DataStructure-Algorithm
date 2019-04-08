@@ -7,6 +7,9 @@
 #### 时空复杂度分析
 ![](https://images2018.cnblogs.com/blog/849589/201804/849589-20180402133438219-1946132192.png)
 
+#### 扩展
+##### 如何让排序算法稳定？
+
 #### Reference
 * [十大经典排序算法（动图演示）](https://www.cnblogs.com/onepixel/p/7674659.html)
 
