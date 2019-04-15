@@ -7,7 +7,7 @@ package $231;
 public class Solution {
     public boolean isPowerOfTwo(int n) {
         int temp = 1;
-        for (int i = 0; i < 31; i++){
+        for (int i = 0; i < 30; i++){
             if (temp == n){
                 return true;
             }else if (temp > n){
@@ -17,7 +17,7 @@ public class Solution {
             }
         }
         System.out.println(temp);
-        return false;
+        return temp == n;
     }
 
     public static void main(String[] args) {
