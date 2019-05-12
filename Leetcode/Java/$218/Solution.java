@@ -1,6 +1,7 @@
 package $218;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.PriorityQueue;
@@ -11,8 +12,8 @@ import java.util.Queue;
  * @since Created in 3:49 PM 5/12/19.
  */
 public class Solution {
-    public List<int[]> getSkyline(int[][] buildings) {
-        List<int[]> result = new ArrayList<>();
+    public List<List<Integer>> getSkyline(int[][] buildings) {
+        List<List<Integer>> result = new ArrayList<>();
         List<int[]> height = new ArrayList<>();
         for(int[] b:buildings) {
             height.add(new int[]{b[0], -b[2]});
@@ -34,10 +35,15 @@ public class Solution {
             }
             int cur = pq.peek();
             if(prev != cur) {
-                result.add(new int[]{h[0], cur});
+                result.add(new ArrayList<>(Arrays.asList(h[0], cur)));
                 prev = cur;
             }
         }
         return result;
+    }
+
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        solution.getSkyline(new int[][]{{2,9,10}});
     }
 }
