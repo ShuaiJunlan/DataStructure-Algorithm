@@ -1,4 +1,4 @@
-package $001;
+package $002;
 
 /**
  * @author Shuai Junlan[shuaijunlan@gmail.com].

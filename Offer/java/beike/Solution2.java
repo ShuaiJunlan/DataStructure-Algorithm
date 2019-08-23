@@ -29,7 +29,7 @@ public class Solution2 {
         }
 
         int count = 0;
-        for (int i = 1; i <= (n >> 1); i++){
+        for (int i = 1; i <= (n + 1 >> 1); i++){
             if (isEquals(t, i)){
                 count = i;
             }
