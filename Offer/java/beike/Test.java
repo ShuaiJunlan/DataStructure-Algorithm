@@ -10,5 +10,7 @@ public class Test {
         long k = 200000 * 200000;
         System.out.println(k);
         System.out.println(m);
+
+        System.out.println(Integer.MAX_VALUE);
     }
 }
