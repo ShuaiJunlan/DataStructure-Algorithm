@@ -18,4 +18,9 @@ public class Solution {
         String suffix = s.substring(j);
         return new StringBuffer(suffix).reverse().toString() + shortestPalindrome(s.substring(0, j)) + suffix;
     }
+
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        solution.shortestPalindrome("aaabcedf");
+    }
 }
