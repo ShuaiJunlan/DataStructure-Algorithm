@@ -2,29 +2,29 @@ package $552;
 
 /**
  * @author Shuai Junlan[shuaijunlan@gmail.com].
- * @since Created in 5:08 PM 9/8/19.
+ * @since Created in 7:42 PM 9/9/19.
+ *
+ * https://leetcode.com/problems/student-attendance-record-ii/discuss/101633/Improving-the-runtime-from-O(n)-to-O(log-n)
  */
 public class Solution {
-    private int count = 0;
     public int checkRecord(int n) {
-        count = 0;
-        dfs(0, 0, ' ', ' ', n);
-        return count;
-    }
-    private void dfs(int step, int aCount, char pre, char prePre, int n){
-        if (step == n){
-            count++;
-            return;
+        final int MOD = 1000000007;
+        int[][][] f = new int[n+1][2][3];
+        f[0] = new int[][]{{1, 1, 1}, {1, 1, 1}};
+        for (int i = 1; i <= n; i++){
+            for (int j = 0; j < 2; j++){
+                for (int k = 0; k < 3; k++){
+                    int val = f[i-1][j][2]; //P
+                    if (j > 0){
+                        val = (val + f[i-1][j-1][2]) % MOD; //A
+                    }
+                    if (k > 0){
+                        val = (val + f[i-1][j][k-1]) % MOD; //L
+                    }
+                    f[i][j][k] = val;
+                }
+            }
         }
-        if (step > n){
-            return;
-        }
-        dfs(step+1, aCount, 'P', pre, n);
-        if (aCount < 1){
-            dfs(step+1, aCount + 1, 'A', pre, n);
-        }
-        if (!(pre == 'L' && prePre == 'L')){
-            dfs(step+1, aCount, 'L', pre, n);
-        }
+        return f[n][1][2];
     }
 }
